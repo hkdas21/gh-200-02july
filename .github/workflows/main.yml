@@ -16,4 +16,6 @@ jobs:
          run: ls -la
 
       - name: Create ASCII Art
-        run: ./scripts/greets.sh
+        run: |
+          chmod +x scripts/greets.sh
+          ./scripts/greets.sh
