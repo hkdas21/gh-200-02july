@@ -50,6 +50,6 @@ jobs:
           name: build-report
 
       - name: Test Artifact
-        run: cat built-report.txt
+        run: cat build-report.txt
 
         
