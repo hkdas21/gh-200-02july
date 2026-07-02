@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello to the GH-200 Workshop!!!"
+
+      -  name: Copy Code
+         uses: actions/checkout@v6
+
+      -  name: List Repo Files
+         run: ls -la
